@@ -7,7 +7,7 @@ const {
 } = require("../Controllers/Cart");
 const VerifyAuthentication = require("../Middlewares/VerifyAuthentication");
 
-router.route("/add-to-cart").post(VerifyAuthentication, addToCart);
+router.route("/add-to-cart").post(VerifyAuthentication,addToCart);
 
 router.route("/get-cartitems/:id").get(getCartItems);
 

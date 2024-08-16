@@ -27,7 +27,7 @@ const databaseSchema = new mongoose.Schema({
   },
   type: {
     type: String,
-    required: true,
+
   },
   features: [{ type: String }],
   available: {

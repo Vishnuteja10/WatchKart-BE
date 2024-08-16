@@ -30,11 +30,11 @@ const databaseSchema = new mongoose.Schema({
   },
   color: {
     type: String,
-    required: true,
+    
   },
   type: {
     type: String,
-    required: true,
+   
   },
   features: [{ type: String }],
   available: {
